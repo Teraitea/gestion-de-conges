@@ -1,0 +1,8 @@
+CREATE TABLE `gestionconges`.`utilisateurs` ( 
+    `id_utilisateur` INT(11) NOT NULL AUTO_INCREMENT , 
+    `nom_utilisateur` VARCHAR(255) NOT NULL , 
+    `prenom_utilisateur` VARCHAR(255) NOT NULL , 
+    `id_ref_conges` INT(11) NOT NULL , 
+    `date_anniversaire` DATE NOT NULL ,
+    `id_service_affecte` INT(11) NOT NULL , `id_poste` INT(11) NOT NULL , PRIMARY KEY (`id_utilisateur`)
+) ENGINE = MyISAM;  
